@@ -1,0 +1,42 @@
+
+h5.toggle{
+	overflow:hidden;
+	margin:0;
+}
+h5.toggle a{
+	font:13px/20px 'MuseoSlab500Regular', arial, helvetica, sans-serif !important;
+	cursor:pointer;
+	color:#333333 !important;
+	border-bottom:1px solid #e8e6e6;
+	overflow:hidden;
+	margin:0;
+	padding:10px 0px;
+	float:left;
+	width:100%;
+}
+h5.toggle.active a{
+	border-bottom:0;
+}
+h5.toggle span.arrow{
+	background:#333333 url(images/toggle_plus.png) no-repeat center center;
+	display:block;
+	width:22px;
+	height:22px;
+	float:left;
+	margin-right:18px;
+}
+h5.toggle.active span.arrow{
+	background-color:#a0ce4e;
+	background-image:url(images/toggle_minus.png);
+}
+h5.toggle span.toggle-title{
+	float:left;
+	width:90%;
+}
+.toggle-content{
+	padding-bottom:15px;
+	position:relative;
+}
+h5.toggle.active + .toggle-content{
+	border-bottom:1px solid #E8E6E6;
+}

@@ -1,0 +1,28 @@
+/*
+Theme Name: Avada
+Description: A business, portfolio and blog theme.
+Author: ThemeFusion
+Theme URI: http://theme-fusion.com/avada/
+Author URI: http://themeforest.net/user/ThemeFusion
+Version: 3.0.1
+License: GNU General Public License
+License URI: license.txt
+*/
+
+@import url("all.css");
+
+	h5.toggle span.arrow {
+		background-image: url(images/toggle_plus@2x.png) !important;
+		-webkit-background-size:7px 7px;
+		   -moz-background-size:7px 7px;
+		     -o-background-size:7px 7px;
+		        background-size:7px 7px;
+	}
+
+	h5.toggle.active span.arrow {
+		background-image: url(images/toggle_minus@2x.png) !important;
+		-webkit-background-size:7px 1px;
+		   -moz-background-size:7px 1px;
+		     -o-background-size:7px 1px;
+		        background-size:7px 1px;	
+	}

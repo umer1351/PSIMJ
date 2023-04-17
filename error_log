@@ -1,0 +1,7 @@
+[14-Jul-2021 11:30:41 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM wp_postmeta WHERE meta_id IN( 4701 ) made by do_action_ref_array('do_pings'), WP_Hook->do_action, WP_Hook->apply_filters, do_all_pings, do_action('do_all_pings'), WP_Hook->do_action, WP_Hook->apply_filters, do_all_pingbacks, delete_post_meta, delete_metadata
+[26-Jul-2021 09:12:41 UTC] WordPress database error Table 'u335488220_annals.wp_aws_cache' doesn't exist for query SELECT *
+                FROM
+                    wp_aws_cache
+                WHERE
+                     name = 'aws_search_term_a_administrator'
+		     made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_aws_action'), WP_Hook->do_action, WP_Hook->apply_filters, AWS_Search->action_callback, AWS_Search->search, AWS_Cache->get_from_cache_table

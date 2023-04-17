@@ -1,0 +1,78 @@
+/* new */
+
+
+ html  {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+
+}
+
+.zero{padding: 5px 20px !important;}
+
+
+
+para {font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}
+
+
+}
+
+.hvr ul{padding: 0;padding-left: 10px;}
+ul{margin-bottom:2px !important;}
+.hvr ul li a {
+	
+	text-decoration: none;
+	text-align: justify;
+	 
+		font-family: 'Trebuchet MS' , 'Lucida Sans Unicode' , 'Lucida Grande' , 'Lucida Sans' , Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.2em;
+    
+    font-family: 'Times New Roman', 'Times, serif';
+		color: black;
+		    font-size: 1.2em ;
+	    
+}
+hvr ul li span {
+	 color: #333;
+	font-size: 13px;
+	/*.display: block;*/
+	padding-left: 10px;
+	    font-family: 'Century Schoolbook';
+	    font-size: 0.7em;
+    line-height: 1.4em;
+}
+/*.hvr ul li:before {    
+    font-family: 'FontAwesome';
+    content:"\f19d";
+    margin:0 5px 0 -20px;
+    position: absolute;
+}*/
+.hvr ul li{list-style-type: none;
+
+
+/*	Removing margins and paddings from the body, so that
+    the sidebar takes the full height of the page */
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x:hidden;
+	background-color:	#f2f2f2 !important;
+	
+}
+.services {/*background-color:	 #f2f2f2;*/padding-top:25px;}
+.services a i { font-size: 50px; background: #ff4d03; border-radius: 50%; padding: 50px; }
+.services a { color: #660000; text-decoration: none;font-size:16px;font-weight:600;}
+.services a:hover, a:focus  { color: #ff4d03; text-decoration: none;}
+.fa-stack-2x {color: #660000;}
+
+.fa-stack-2x {
+    color: #660000 !important;
+}
+a {
+    cursor: pointer !important;
+}
